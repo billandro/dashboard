@@ -161,6 +161,10 @@ button {
 }
 
 .hi {
+    padding-left: 3px;
+}
+
+.hi {
     font-size: 11px;
 }
 
@@ -241,11 +245,19 @@ button {
 .star-icon > img {
     width: 20px;
     height: 20px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .eye-icon > img {
     width: 20px;
     height: 20px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 
 .trending {
@@ -254,7 +266,7 @@ button {
 }
 
 .announcements {
-    margin-bottom: 3px;
+    margin-bottom: 16px;
 }
 
 .announcements-div {
@@ -355,47 +367,64 @@ button:hover {
 }
 
 .home:hover {
-    transform: scale(0.9);
     cursor: pointer;
-    color: white;
+    text-decoration: underline;
 }
 
 .profile:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .messages:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .history:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .tasks:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .communities:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .settings:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .support:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .privacy:hover {
-    transform: scale(0.9);
     cursor: pointer;
+    text-decoration: underline;
+}
+
+.my-icon:hover {
+    cursor: pointer;
+}
+
+.my-icon2:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: rgba(25,146,212,255);
+        text-decoration: underline;
+    }
 }
